@@ -1,0 +1,17 @@
+{
+    "name": "drupal/ng_featherlight",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Camille POQUET",
+            "homepage": "https://www.drupal.org/u/soubi",
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/SubaruSumeragi/drupal-ng_featherlight/issues",
+        "source": "https://github.com/SubaruSumeragi/drupal-ng_featherlight"
+    },
+    "require" : {
+        "drupal/ng_lightbox": "*"
+    }
+}
