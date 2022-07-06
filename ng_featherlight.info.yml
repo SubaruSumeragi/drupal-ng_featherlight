@@ -1,0 +1,8 @@
+name: Featherlight
+type: module
+description: Intégration de Featherlight avec NG Lightbox
+package: NG
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - ng_lightbox:ng_lightbox

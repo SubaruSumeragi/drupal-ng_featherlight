@@ -1,0 +1,21 @@
+# Custom module library for general purposes.
+ng_featherlight:
+  js:
+    js/featherlight_load.js: {}
+  dependencies:
+    - core/drupalSettings
+    - ng_featherlight/featherlight
+
+# Third-party library (self hosted).
+featherlight:
+  remote: https://github.com/noelboss/featherlight/
+  version: 1.7.14
+  license:
+    name: MIT
+    url: https://github.com/noelboss/featherlight/blob/master/LICENSE
+    gpl-compatible: true
+  js:
+    /libraries/featherlight/featherlight.min.js: { minified: true }
+  css:
+    component:
+      /libraries/featherlight/featherlight.min.css: { minified: true }

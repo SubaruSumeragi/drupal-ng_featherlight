@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Featherlight module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function ng_featherlight_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'ng_featherlight/ng_featherlight';
+}
