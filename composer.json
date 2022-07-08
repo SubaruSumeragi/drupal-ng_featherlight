@@ -1,5 +1,6 @@
 {
     "name": "drupal/ng_featherlight",
+    "description": "Add Featherlight to ng_lightbox",
     "license": "MIT",
     "type": "drupal-module-custom",
     "keywords": [
@@ -17,6 +18,6 @@
         "source": "https://github.com/SubaruSumeragi/drupal-ng_featherlight"
     },
     "require": {
-        "drupal/ng_lightbox": "*"
+        "drupal/ng_lightbox": "^2.0@beta"
     }
 }
